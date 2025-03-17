@@ -1,5 +1,5 @@
 body {
-	background-image: url(..Images/black.jpg);
+	background-image: url("../Images/black.jpg");
 }
 
 #page-wrapper {
@@ -33,7 +33,7 @@ body {
 #header #toplink {
 	text-decoration: none;
 	position: absolute;
-	top: 34px;
+	top: -34px;
 	right: 10px;
 	color: white;
 	font-size: 1.8em;
@@ -46,7 +46,7 @@ body {
 }
 
 #content-wrapper {
-	background-image: url(..Images/repeating.png);
+	background-image: url("../Images/repeating.png");
 	float: left;
 }
 
@@ -69,7 +69,7 @@ h2 strong {
 	width: 300px;
 	padding: 5px;
 	background-color: white;
-	margin: 10px 0px 10px 20px;
+	margin: 10px 0 10px 20px;
 }
 
 #side-content {
@@ -93,11 +93,17 @@ h2 strong {
 	left: 50%;
 }
 
+#main-nav ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+}
+
 #main-nav ul li a {
 	padding: 10px 25px;
 	display: block;
 	text-decoration: none;
-	color: #ccc
+	color: #ccc;
 }
 
 #main-nav ul li a:hover {
